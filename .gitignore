@@ -1,14 +1,22 @@
-# Banco, credenciais e ambiente local
-.env
-.env.*
-!.env.example
+﻿
+# Ambiente Python
 .venv/
 venv/
 __pycache__/
 *.py[cod]
+
+# Banco de dados
+data/
 *.sqlite3
 *.sqlite3-*
 *.db
 *.db-*
+
+# Credenciais
+.env
+.env.*
+!.env.example
+
+# Arquivos temporários
 .pytest_cache/
 .DS_Store
