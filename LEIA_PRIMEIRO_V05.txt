@@ -1,0 +1,19 @@
+TESTFLOW v0.5 - INSTALAÇÃO E PRESERVAÇÃO DE DADOS
+
+1. Faça BACKUP da pasta atual (principalmente data/testflow.sqlite3).
+2. Feche o servidor anterior (Ctrl+C).
+3. Para manter suas OTs, copie os arquivos desta versão sobre os de sua instalação atual, SEM substituir a pasta data.
+4. Abra INICIAR_TESTFLOW.cmd. O programa instala as dependências faltantes.
+5. A migração v0.5 cria apenas tabelas novas em seu SQLite existente.
+
+Se preferir instalação independente: extraia o ZIP em nova pasta e execute INICIAR_TESTFLOW.cmd.
+Essa instalação tem um banco NOVO demonstrativo (40 Kits, 80 componentes), sem as suas OTs reais.
+
+Pedidos: crie um pedido, acrescente linhas tipo/UF/quantidade, visualize a disponibilidade estimada e vincule Kits individualmente.
+Alocar não equivale a liberar: somente Kits com teste atual aprovado podem ser expedidos.
+Retrabalhos nascem de uma OT reprovada e ficam abertos até reteste aprovado.
+Dashboard conta somente Kits; execuções contam retestes separadamente.
+PDF semanal: Relatórios > Gerar PDF. O resumo distingue eventos da semana e status atual.
+
+IMPORTANTE: A versão atual gera PDFs SOB DEMANDA, não executa tarefas agendadas quando o PC está desligado.
+Esta aplicação local não tem autenticação e não deve ser exposta à Internet.

@@ -1,0 +1,15 @@
+CORREÇÃO DA INTERFACE V0.5 — KITS + PEDIDOS COMERCIAIS
+
+ATUALIZAÇÃO DA INSTALAÇÃO JÁ EXISTENTE:
+1. Encerre o TestFlow pelo PowerShell (Ctrl+C).
+2. Faça uma cópia de segurança da pasta data.
+3. Copie app.py e a pasta static deste pacote para a pasta do TestFlow já instalado,
+   substituindo os arquivos correspondentes.
+4. NÃO copie a pasta data: o banco deste ZIP é demonstrativo.
+5. Execute INICIAR_TESTFLOW.cmd e abra http://127.0.0.1:8000 com Ctrl+F5.
+
+A aba 'Pedidos Comerciais' está destacada no menu, ao lado de 'Kits e Componentes'.
+O menu legado 'Equipamentos' foi ocultado (sua estrutura é conservada por compatibilidade).
+O Dashboard exibe os indicadores da API v0.5, que usa somente Kits como produtos.
+
+NOTA: A mudança na interface não apaga nem modifica OTs anteriores.

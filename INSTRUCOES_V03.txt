@@ -1,0 +1,21 @@
+TESTFLOW DEMO — PACOTE COMPLEMENTAR DE ORDENS FICTÍCIAS
+
+1. FAÇA BACKUP de data/testflow.sqlite3.
+2. Use sua pasta atual da v0.2. NÃO substitua o banco existente.
+3. Importe o CSV de 15 itens usando o importador que você já possui.
+   IMPORTANTE: a v0.2 base fornecida aqui não possui endpoint nativo de importação CSV.
+   Caso não exista um importador funcional no seu ambiente, envie o CSV para
+   adaptarmos suas colunas antes de tentar importar.
+4. Copie APENAS gerar_ots_demo.py para a pasta que contém app.py.
+5. Pare o servidor e execute no PowerShell:
+      .\.venv\Scripts\python.exe gerar_ots_demo.py
+6. Inicie o servidor como de costume e atualize o navegador.
+7. Consulte Dashboard, OTs e Relatórios; exporte testflow-ots.csv.
+
+O script cria até 15 OTs para equipamentos JÁ cadastrados, mais 1 reteste
+vinculado se houver uma reprovação. Não cria equipamentos e não altera estoque.
+Uma segunda execução não duplica os dados marcados [DEMO-OT-V03].
+O script NÃO valida o conteúdo de seu CSV de 15 itens; ele não foi anexado aqui.
+
+ATENÇÃO: dados fictícios serão misturados nos indicadores globais da v0.2.
+Use uma cópia do banco para demonstrações, nunca o banco operacional real.

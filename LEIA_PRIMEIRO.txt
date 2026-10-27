@@ -1,0 +1,17 @@
+TESTFLOW v0.4 — PASTA COMPLETA PARA WINDOWS
+
+1. Extraia o ZIP.
+2. Abra a pasta Sistema_Teste_de_Hardware_v04.
+3. Clique duas vezes em INICIAR_TESTFLOW.cmd.
+4. Na primeira execução, o Windows cria a pasta .venv e instala as bibliotecas.
+5. Acesse http://127.0.0.1:8000.
+
+INCLUSO: banco SQLite NOVO com 40 kits fictícios e 80 componentes fictícios.
+NAO INCLUSO: banco original do seu computador nem suas OTs reais.
+O ambiente virtual Windows e criado automaticamente no primeiro uso, pois um
+ambiente criado em Linux nao funciona corretamente no Windows.
+
+IMPORTANTE: nao substitua sua pasta original se deseja manter seus dados.
+Este pacote e uma instalacao demonstrativa independente.
+
+CORRECAO: python-multipart incluido nas dependencias.
