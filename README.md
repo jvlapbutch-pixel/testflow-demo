@@ -11,6 +11,34 @@
 - **Retrabalhos:** acompanhamento de reprovações e manutenções, retestes e histórico de substituição de componentes.
 - **Relatórios:** consulta operacional e geração de resumo semanal em PDF, sob demanda.
 
+## Demonstração visual
+
+Capturas da interface do TestFlow v0.5, utilizando registros demonstrativos.
+
+### Dashboard de Kits
+
+O total de produtos finais considera **Kits**, enquanto execuções e retestes são contabilizados separadamente.
+
+![Dashboard de Kits do TestFlow](docs/screenshots/dashboard.png)
+
+### Pedidos comerciais
+
+Cadastro de pedidos por tipo de Kit e UF de destino, com controle de quantidade solicitada e acompanhamento do atendimento.
+
+![Tela de pedidos comerciais do TestFlow](docs/screenshots/pedidos-comerciais.png)
+
+### Ordens de teste
+
+Abertura de OTs e consulta ao histórico, com Kits, resultados e identificação do responsável.
+
+![Tela de ordens de teste do TestFlow](docs/screenshots/ordens-de-teste.png)
+
+### Retrabalhos e manutenção
+
+Acompanhamento de reprovações e disponibilização das ações de manutenção e reteste.
+
+![Tela de retrabalhos do TestFlow](docs/screenshots/retrabalhos.png)
+
 ## Tecnologias
 
 Python · FastAPI · SQLite · JavaScript · HTML · CSS · APIs REST · Git
